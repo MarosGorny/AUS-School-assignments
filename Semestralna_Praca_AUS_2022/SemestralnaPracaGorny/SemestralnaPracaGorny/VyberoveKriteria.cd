@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VNajmensiaVekovaSkupina">
+    <Position X="3.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>vyberoveKriterium\VNajmensiaVekovaSkupina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VNajvacsiaVekovaSkupina">
+    <Position X="0.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vyberoveKriterium\VNajvacsiaVekovaSkupina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VyberoveKriterium&lt;R&gt;">
+    <Position X="2" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAABACAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vyberoveKriterium\VyberoveKriterium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VyberoveKriteriumMax&lt;R&gt;">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vyberoveKriterium\VyberoveKriteriumMax.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VyberoveKriteriumMin&lt;R&gt;">
+    <Position X="3.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vyberoveKriterium\VyberoveKriteriumMin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EnumVekovaSkupina">
+    <Position X="4.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAIAIAA=</HashCode>
+      <FileName>EnumVekovaSkupina.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

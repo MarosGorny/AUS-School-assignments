@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D81072A9-7086-414C-9901-AC1324CA3BE5}</ProjectGuid>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>AUSLite</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DataStructures</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableASAN>false</EnableASAN>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/DAUS_CATCH_EXCEPTIONS %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4100;4829</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gui\gui_log_consumer.cpp" />
+    <ClCompile Include="gui\main_form.cpp" />
+    <ClCompile Include="structures\structure.cpp" />
+    <ClCompile Include="structures\utils.cpp" />
+    <ClCompile Include="structures\vector\vector.cpp" />
+    <ClCompile Include="structures\_logger\file_log_consumer.cpp" />
+    <ClCompile Include="structures\_logger\logger.cpp" />
+    <ClCompile Include="tests\array\array_test.cpp" />
+    <ClCompile Include="tests\list\list_test.cpp" />
+    <ClCompile Include="tests\matrix\matrix_test.cpp" />
+    <ClCompile Include="tests\priority_queue\priority_queue_test.cpp" />
+    <ClCompile Include="tests\queue\queue_test.cpp" />
+    <ClCompile Include="tests\stack\stack_test.cpp" />
+    <ClCompile Include="tests\stdvector\stdvector_test.cpp" />
+    <ClCompile Include="tests\table\sorting_test.cpp" />
+    <ClCompile Include="tests\table\table_test.cpp" />
+    <ClCompile Include="tests\test.cpp" />
+    <ClCompile Include="tests\tree\tree_test.cpp" />
+    <ClCompile Include="tests\vector\vector_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui\gui_log_consumer.h" />
+    <ClInclude Include="gui\main_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="structures\array\array.h" />
+    <ClInclude Include="structures\data_item.h" />
+    <ClInclude Include="structures\heap_monitor.h" />
+    <ClInclude Include="structures\list\array_list.h" />
+    <ClInclude Include="structures\list\double_linked_list.h" />
+    <ClInclude Include="structures\list\linked_list.h" />
+    <ClInclude Include="structures\list\list.h" />
+    <ClInclude Include="structures\matrix\coherent_matrix.h" />
+    <ClInclude Include="structures\matrix\incoherent_matrix.h" />
+    <ClInclude Include="structures\matrix\matrix.h" />
+    <ClInclude Include="structures\priority_queue\heap.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue_limited_sorted_array_list.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue_linked_list.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue_list.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue_sorted_array_list.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue_two_lists.h" />
+    <ClInclude Include="structures\priority_queue\priority_queue_unsorted_array_list.h" />
+    <ClInclude Include="structures\queue\explicit_queue.h" />
+    <ClInclude Include="structures\queue\implicit_queue.h" />
+    <ClInclude Include="structures\queue\queue.h" />
+    <ClInclude Include="structures\stack\explicit_stack.h" />
+    <ClInclude Include="structures\stack\implicit_stack.h" />
+    <ClInclude Include="structures\stack\stack.h" />
+    <ClInclude Include="structures\structure.h" />
+    <ClInclude Include="structures\structure_iterator.h" />
+    <ClInclude Include="structures\table\binary_search_tree.h" />
+    <ClInclude Include="structures\table\hash_table.h" />
+    <ClInclude Include="structures\table\linked_table.h" />
+    <ClInclude Include="structures\table\sequence_table.h" />
+    <ClInclude Include="structures\table\sorted_sequence_table.h" />
+    <ClInclude Include="structures\table\sorting\bubble_sort.h" />
+    <ClInclude Include="structures\table\sorting\heap_sort.h" />
+    <ClInclude Include="structures\table\sorting\insert_sort.h" />
+    <ClInclude Include="structures\table\sorting\merge_sort.h" />
+    <ClInclude Include="structures\table\sorting\quick_sort.h" />
+    <ClInclude Include="structures\table\sorting\radix_sort.h" />
+    <ClInclude Include="structures\table\sorting\select_sort.h" />
+    <ClInclude Include="structures\table\sorting\shell_sort.h" />
+    <ClInclude Include="structures\table\sorting\shuffle.h" />
+    <ClInclude Include="structures\table\sorting\sort.h" />
+    <ClInclude Include="structures\table\table.h" />
+    <ClInclude Include="structures\table\treap.h" />
+    <ClInclude Include="structures\table\unsorted_sequence_table.h" />
+    <ClInclude Include="structures\tree\binary_tree.h" />
+    <ClInclude Include="structures\tree\k_way_tree.h" />
+    <ClInclude Include="structures\tree\multi_way_tree.h" />
+    <ClInclude Include="structures\tree\tree.h" />
+    <ClInclude Include="structures\types.h" />
+    <ClInclude Include="structures\utils.h" />
+    <ClInclude Include="structures\vector\vector.h" />
+    <ClInclude Include="structures\_logger\file_log_consumer.h" />
+    <ClInclude Include="structures\_logger\logger.h" />
+    <ClInclude Include="tests\array\array_test.h" />
+    <ClInclude Include="tests\list\list_test.h" />
+    <ClInclude Include="tests\matrix\matrix_test.h" />
+    <ClInclude Include="tests\priority_queue\priority_queue_test.h" />
+    <ClInclude Include="tests\queue\queue_test.h" />
+    <ClInclude Include="tests\stack\stack_test.h" />
+    <ClInclude Include="tests\stdvector\stdvector_test.h" />
+    <ClInclude Include="tests\table\sorting_test.h" />
+    <ClInclude Include="tests\table\table_test.h" />
+    <ClInclude Include="tests\test.h" />
+    <ClInclude Include="tests\tree\tree_test.h" />
+    <ClInclude Include="tests\vector\vector_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="gui\main_form.resx">
+      <DependentUpon>gui\main_form.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\debug.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="images\elapsed.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="images\error.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="images\info.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="images\ok.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="images\warning.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

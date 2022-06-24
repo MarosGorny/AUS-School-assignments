@@ -1,0 +1,26 @@
+﻿  gui_log_consumer.cpp
+  main_form.cpp
+  structure.cpp
+  utils.cpp
+  vector.cpp
+  file_log_consumer.cpp
+  logger.cpp
+  array_test.cpp
+  list_test.cpp
+  matrix_test.cpp
+  priority_queue_test.cpp
+  queue_test.cpp
+  stack_test.cpp
+  stdvector_test.cpp
+  sorting_test.cpp
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\structures\table\sorting\quick_sort.h(25,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\structures\table\sorting\quick_sort.h(24): message : while compiling class template member function 'void structures::QuickSort<int,int>::sort(structures::UnsortedSequenceTable<int,int> &)'
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\tests\table\sorting_test.cpp(73): message : see reference to class template instantiation 'structures::QuickSort<int,int>' being compiled
+  table_test.cpp
+  test.cpp
+  tree_test.cpp
+  vector_test.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  gui_log_consumer.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  AUSLite.vcxproj -> D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Debug\DataStructures.exe

@@ -1,0 +1,11 @@
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\AUSLite.vcxproj.AssemblyReference.cache
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\AUSLite.vcxproj.SuggestedBindingRedirects.cache
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\AUSLite.gui.main_form.resources
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\AUSLite.vcxproj.GenerateResource.cache
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\images\debug.png
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\images\elapsed.png
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\images\error.png
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\images\info.png
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\images\ok.png
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\images\warning.png
+D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\DataStructures.exe

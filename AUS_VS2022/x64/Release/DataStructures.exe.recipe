@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\x64\Release\DataStructures.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\images\debug.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\images\elapsed.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\images\error.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\images\info.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\images\ok.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Skola\2Rocnik4rok\AUS\AUS_VS2022\AUS_VS2022\images\warning.png</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

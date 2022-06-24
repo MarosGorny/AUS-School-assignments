@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Filter">
+    <Position X="16.5" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>filter\Filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter_AND">
+    <Position X="22.75" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>filter\Filter_AND.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter_OR">
+    <Position X="27" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>filter\Filter_OR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterKriterium&lt;R&gt;">
+    <Position X="14.75" Y="2.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAAAAAACAQAAAAAAAAAEAAAAEAAAAAA=</HashCode>
+      <FileName>filter\FilterKriterium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterMaleFi&lt;R&gt;">
+    <Position X="6.75" Y="5.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAIAAAEAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterMaleFi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterPrislusnost">
+    <Position X="5.25" Y="8.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>filter\FilterPrislusnost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterTyp">
+    <Position X="11.25" Y="8.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterTyp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVekovaSkupinaPocetMedzi">
+    <Position X="28.25" Y="12.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterVekovaSkupinaPocetMedzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVekovaSkupinaPodielMedzi">
+    <Position X="12.25" Y="10.25" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterVekovaSkupinaPodielMedzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVekPocetMedzi">
+    <Position X="20.5" Y="10.25" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterVekPocetMedzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVekPodielMedzi">
+    <Position X="12" Y="12.5" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterVekPodielMedzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVelkeFi&lt;R&gt;">
+    <Position X="16.5" Y="5.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAQAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterVelkeFi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVzdelaniePocet">
+    <Position X="0.5" Y="8.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterVzdelaniePocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVzdelaniePocetMedzi">
+    <Position X="28.5" Y="10.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>filter\FilterVzdelaniePocetMedzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterVzdelaniePodielMedzi">
+    <Position X="20.75" Y="12.5" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAA=</HashCode>
+      <FileName>filter\FilterVzdelaniePodielMedzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KompozitnyFilter">
+    <Position X="25.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>filter\KompozitnyFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
